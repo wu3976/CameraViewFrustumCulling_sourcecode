@@ -1,0 +1,2 @@
+Optimized rendering efficiency by implementing a view frustum culling algorithm in the game engine PrimeEngine
+Established axis-aligned bounding boxes for each mesh loaded into the engine. Checked for mesh overlap with the view frustum before drawing each frame, and excluded meshes outside the frustum from the PrimeEngine's render list.
